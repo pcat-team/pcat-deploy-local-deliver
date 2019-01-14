@@ -57,8 +57,8 @@ function deliver(output, release, content, file,tag) {
 
   // 复制一份到最新目录，方便查看
   if(tag){
-    var lasest = target.replace(tag,"lasest");
-    fis.util.write(lasest, content);
+    var latest = target.replace(tag,"latest");
+    fis.util.write(latest, content);
   }
   // console.log(target)
   fis.log.debug(
